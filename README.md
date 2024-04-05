@@ -18,7 +18,6 @@ The goal of this analysis is to:
 - Which circuit had the highest number of races conducted? 
 - What is the distribution of race winners by nationality for a given year?
 - How does a driver's age relate to their performance (points) in a specific year?
-- Finally, the goal is to create data-driven plans that can aid in increasing sales, improving customer satisfaction, and driving the company's growth
 
 ## Skills and Concepts Demonstrated:
 
@@ -73,12 +72,15 @@ The dataset for the work is gotten from Dahel Consultant Techies. It consist of 
 
    ---
 
-## Data Transformation:
+## Data Cleaning and Transformation:
 
-After downloading the dataset, I opened the dataset as CSV files in Microsoft Excel
-The tables and views are:
+After downloading the dataset, I opened the dataset as CSV files in Microsoft Excel.
+- I removed duplicate records.
+- I handled missing values (e.g., filling in missing values, deleting rows with missing data).
+- I converted data types (e.g., converting text to numbers, dates).
+- I splitted, merged, and rearranged data across columns.
 
-
+The transformation view and results are displayed below:
 
 ![F1-Results](https://github.com/RemedyData/Dahel_Techies_F1_Results_Analysis_Internship/assets/137626163/2d66fd73-cbdf-4a4e-a12a-666eb7c46989)
 
@@ -86,6 +88,7 @@ The tables and views are:
 
 
 
+![image](https://github.com/RemedyData/Dahel_Techies_F1_Results_Analysis_Internship/assets/137626163/0343ac55-b66b-4814-b7e8-7363e194d4bc)
 
 
 
@@ -97,21 +100,13 @@ The tables and views are:
 
 
 
-
-
-
-
-
-
-
-
-
 ---
 
 
 ## Data Analysis:
 
-Several expressions and functions were made to arrive at the desired results.
+- Several expressions and built-in functions such as SUM, AVERAGE, COUNT, MAX, MIN and many more were made to arrive at the desired results.
+- I performed more complex calculations using functions like IF, VLOOKUP, INDEX-MATCH, SUMIFS, COUNTIFS, etc.
 
 ## Features of the Report:
 The dashboard conveys information about the following key areas:
@@ -123,47 +118,28 @@ The dashboard conveys information about the following key areas:
 
 The overall analysis of the dataset can be checked out [here](https://docs.google.com/spreadsheets/d/1FMqNROkBnrNnmsJ6FUrP1SYln76YwV5n/edit?usp=drive_link&ouid=106022796380172080948&rtpof=true&sd=true)
 
-## Analysis
+## Analysis and Observation:
 
 Summary of the insights gained into the company's performance: 
 
-▪︎A total revenue of £1.27 million was realized between the year 2013-2015.
-
-▪︎With 77 products which Northwind Traders had in stock, they were able to receive 830 orders within the year 2013-2015.
-
-▪︎£64,942 was spent on shipping of products within the year 2013-2015.
-
-▪︎Northwind Traders had a total number of 91 customers from 21 different countries within the year 2013-2015.
-
-▪︎Highest revenue was made in April, 2015 with a sum of £124,000.
-
-▪︎Lowest revenue was made in May, 2015 with a sum of £18,000.
-
-▪︎QUICK-stop happens to be the company with the most highest leads generating a sum of £110,277 for Northwind Traders. 
-
-▪︎Hungry Owl All-Night Grocers happens to be the company with the lowest leads generating a sum of £49,979 for Northwind Traders. 
-
-▪︎Beverages happens to be the product with the highest revenue taking 21.16% of the total revenue.
-
-▪︎Grains and Cereals happens to be the product with the lowest revenue taking 7.56% of the total revenue 
-
-▪︎USA, Germany, Austria happens to be the top 3 countries with the highest revenue. 
-
-▪︎United Package has the highest orders followed by Federal Shipping then Speedy Express.
+▪︎ The top drivers with the most points in the year 2021 are Max Verstappen, Lewis Hamilton, and Valtteri Bottas	with an accumulated point of 388.5, 385.5 and 219 respectively
 
 
-## Recommendation
+▪︎The average time it took for the fastest lap in each race 12:01:00 AM.
 
-- There are no doubts that the business is performing well as there are potential leads within the company yielding higher returns.
+▪︎Circuit with the highest number of race conducted is Autodromo Nazionale di Monza with a total number 1776 races conducted.
 
-- The grains and cereals subcategories are not doing much in sales. Strategies to increase the sales should be made like "discounted bundle-selling" where for any purchase of beverages which happens to be the product with the highest revenue, grains or cereals will be added as an offer in addition to the beverages but at a discounted price which will be cheaper compared to when they are buying the grains or cereals as a stand-alone product.
+▪︎Distribution of race winners by nationality for the year 2021:
+**Circuit Name**       |       **Number of events**
+:-------------------:  |   :--------------------------:
+Australian             |          	 1
+British                |           	8
+Dutch   	              |            10
+Finnish	               |            1
+French	                |            1
+Mexican                |           	1
 
- - Use database to gather customer feedback to get their experiences about the product or services. This information can be used to identify areas for improvement.
-
- - Understand Customers purchasing pattern by carrying out an analysis on this. This will tell what customers are buying, when they are buying  and how to promote the goods to the customers.
-
- - It is suggested that 8 products be discontinued so as increase the company's leverage. 
-
+▪︎There is no correlation between the driver's age and their performance.When plotted on a scatter plot, there are no connecting dots.
 
 ---
 
