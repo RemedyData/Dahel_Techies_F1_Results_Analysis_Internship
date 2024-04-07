@@ -145,6 +145,6 @@ Mexican                |           	1
 
 ### Thank you for reading.
 
-I am open for entry-level data anlalyst role.
+I am open for entry-level to mid-level data anlalyst role.
 
 Let us have discussion about your company and industry now!
