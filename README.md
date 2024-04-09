@@ -7,7 +7,7 @@ Dahel Consultant Techies Internship: This is a project that entails the analysis
 
 ## Introduction
 
-This is an analysis of a car racing event. It is done by analyzing data from F1 Results data table which comprises of resultId column,	year column,	round column,	Event name column,	Event date column, 	circuit name column,	lat column,	lng column,	code column,	Driver's forename column,	Driver's surname column,	dob	column, Driver's Age as at year of the event column,	Driver's nationality column,	Constructor name column,	constructor's nationality column,	Driver's  number column,	grid column,	position column,	positionOrder column,	points column,	laps column,	time column,	milliseconds column, fastestLap column, rank column,	fastestLapTime column,	fastestLapSpeed column,	status column, Driver's Full name column, and	Age column. The project was carried out entirely using Microsoft Excel.
+This is an analysis of a car racing event. It is done by analyzing data from F1 Results data table which comprises of resultId,	year,	round,	Event name,	Event date, 	circuit name,	lat,	lng,	code,	Driver's forename,	Driver's surname,	dob, Driver's Age as at year of the event,	Driver's nationality,	Constructor name, constructor's nationality,	Driver's  number,	grid,	position,	positionOrder,	points,	laps,	time,	milliseconds, fastestLap, rank,	fastestLapTime,	fastestLapSpeed,	status, Driver's Full name, and	Age fields. The project was carried out entirely using Microsoft Excel.
 
 ## Problem Statement
 
