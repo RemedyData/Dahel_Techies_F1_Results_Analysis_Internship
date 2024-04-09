@@ -120,7 +120,7 @@ The overall analysis of the dataset can be checked out [here](https://docs.googl
 
 ## Analysis and Observation:
 
-Summary of the insights gained into the company's performance: 
+Summary of the insights gained into the race game performance: 
 
 ▪︎ The top drivers with the most points in the year 2021 are Max Verstappen, Lewis Hamilton, and Valtteri Bottas	with an accumulated point of 388.5, 385.5 and 219 respectively
 
